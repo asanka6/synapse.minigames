@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 function goToPage(page) {
-  window.location.href = page // Перенаправление на другую страницу
+  window.location.href = page
 }
