@@ -26,6 +26,22 @@ h3 {
   color: white;
 }
 
+h4 {
+  font-family: ArticulatLightOblique;
+  font-size: 40px;
+  letter-spacing: -0.04em;
+  line-height: 80%;
+  color: white;
+}
+
+h5 {
+  font-family: ArticulatLight;
+  font-size: 40px;
+  letter-spacing: -0.04em;
+  line-height: 80%;
+  color: white;
+}
+
 p {
   font-family: ArticulatNormal;
   font-size: 20px;
@@ -34,11 +50,20 @@ p {
   color: white;
 }
 
+.textContainer {
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 24px;
+}
 
 .firstRow {
+  width: 96vw;
   display: flex;
   flex-direction: row;
-  gap: 64px;
+  justify-content: space-between;
+  padding-left: 24px;
 }
 
 .titleColumn {
@@ -53,10 +78,41 @@ p {
   gap: -100px;
 }
 
-.wrapperTitleLogo {
+.titleLogoWrapper {
   display: flex;
   flex-direction: column;
   gap: -4px;
+}
+
+.logoWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.TM {
+  margin-top: -8px;
+}
+
+.infoModules {
+  width: 56vw;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.codeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 12px;
 }
 
 .hzWrapper {
@@ -65,15 +121,41 @@ p {
   align-items: flex-end;
 }
 
+.additionalInfo {
+  padding-bottom: 6px;
+  padding-left: 8px;
+}
+
 .modulesColumn {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 2px;
+}
+
+.modules {
+  display: flex;
+  flex-direction: column;
 }
 
 .secondRow {
+  width: 96vw;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-top: 40px;
+}
+
+.menuCoordinates {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+.randomColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .coordinatesColumn {
@@ -85,5 +167,5 @@ p {
 .protocolsColumn {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 2px;
 }
