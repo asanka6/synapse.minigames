@@ -1,15 +1,9 @@
-p {
-  font-family: Articulat, Sans-serif, Arial;
-  font-weight: 900;
-}
-
 body {
-  background-color: #0c0c0d;
+  background-color: #0C0C0D;
 }
 
 h1 {
-  font-family: Articulat, Sans-serif, Arial;
-  font-weight: 300;
+  font-family: ArticulatLight;
   font-size: 156px;
   letter-spacing: -0.02em;
   line-height: 77%;
@@ -17,7 +11,79 @@ h1 {
 }
 
 h2 {
+  font-family: ArticulatLight;
+  font-size: 80px;
+  letter-spacing: -0.06em;
+  line-height: 77%;
+  color: white;
 }
 
 h3 {
+  font-family: ArticulatLight;
+  font-size: 40px;
+  letter-spacing: -0.06em;
+  line-height: 80%;
+  color: white;
+}
+
+p {
+  font-family: ArticulatNormal;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  line-height: 80%;
+  color: white;
+}
+
+
+.firstRow {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+}
+
+.titleColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.wrapperProgressBarGoal {
+  display: flex;
+  flex-direction: row;
+  gap: -100px;
+}
+
+.wrapperTitleLogo {
+  display: flex;
+  flex-direction: column;
+  gap: -4px;
+}
+
+.hzWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.modulesColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.coordinatesColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.protocolsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }

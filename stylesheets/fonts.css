@@ -1,118 +1,23 @@
 @font-face {
-  font-family: 'Articulat Thin';
-  src: url('/fonts/ArticulatCF-Thin.otf') format('opentype');
-  font-weight: 250;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Articulat Thin Oblique';
-  src: url('/fonts/ArticulatCF-ThinOblique.otf') format('opentype');
-  font-weight: 250;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'Articulat Extra Light';
-  src: url('/fonts/ArticulatCF-ExtraLight.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Articulat Light';
-  src: url('/fonts/ArticulatCF-Light.otf') format('opentype');
+  font-family: 'ArticulatLight';
+  src: url(../fonts/ArticulatCF-Light.otf);
   font-weight: 300;
-  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Articulat Light Oblique';
-  src: url('/fonts/ArticulatCF-LightOblique.otf') format('opentype');
+  font-family: 'ArticulatLightOblique';
+  src: url(../fonts/ArticulatCF-LightOblique.otf);
   font-weight: 300;
-  font-style: oblique;
 }
 
 @font-face {
-  font-family: 'Articulat Normal';
-  src: url('/fonts/ArticulatCF-Normal.otf') format('opentype');
+  font-family: 'ArticulatNormal';
+  src: url(../fonts/ArticulatCF-Normal.otf);
   font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Articulat Normal Oblique';
-  src: url('/fonts/ArticulatCF-NormalOblique.otf') format('opentype');
+  font-family: 'ArticulatMedium';
+  src: url(../fonts/ArticulatCF-Medium.otf);
   font-weight: 400;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'Articulat Medium';
-  src: url('/fonts/ArticulatCF-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Articulat Medium Oblique';
-  src: url('/fonts/ArticulatCF-MediumOblique.otf') format('opentype');
-  font-weight: 500;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'Articulat Demi Bold';
-  src: url('/fonts/ArticulatCF-DemiBold.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Articulat Demi Bold Oblique';
-  src: url('/fonts/ArticulatCF-DemiBoldOblique.otf') format('opentype');
-  font-weight: 600;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'Articulat Bold';
-  src: url('/fonts/ArticulatCF-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Articulat Bold Oblique';
-  src: url('/fonts/ArticulatCF-BoldOblique.otf') format('opentype');
-  font-weight: 700;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'Articulat Extra Bold';
-  src: url('/fonts/ArticulatCF-ExtraBold.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Articulat Extra Bold Oblique';
-  src: url('/fonts/ArticulatCF-ExtraBoldOblique.otf') format('opentype');
-  font-weight: 800;
-  font-style: oblique;
-}
-
-@font-face {
-  font-family: 'Articulat Heavy';
-  src: url('/fonts/ArticulatCF-Heavy.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Articulat Heavy Oblique';
-  src: url('/fonts/ArticulatCF-HeavyOblique.otf') format('opentype');
-  font-weight: 900;
-  font-style: oblique;
 }
