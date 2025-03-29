@@ -27,6 +27,8 @@ h4 {
 }
 
 .textContainer {
+    position: absolute;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     gap: 300px;
@@ -50,4 +52,27 @@ h4 {
     display: flex;
     flex-direction: row;
     gap: 12px;
+}
+
+#neonLabyrinth {
+    fill: url(#diamondGradient);
+}
+
+img {
+    position: absolute;
+}
+
+#key1 {
+    padding-left: 20%;
+    padding-top: 25%;
+}
+
+#key2 {
+    padding-left: 78%;
+    padding-top: 16.5%;
+}
+
+#key3 {
+    padding-left: 46%;
+    padding-top: 49%;
 }

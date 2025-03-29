@@ -10,3 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function goToPage(page) {
   window.location.href = page
 }
+
+document.getElementById('back').addEventListener('click', function () {
+  window.location.href = 'index.html'
+})
