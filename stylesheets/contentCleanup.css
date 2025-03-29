@@ -1,0 +1,53 @@
+body {
+    background-color: #0C0C0D;
+}
+
+h2 {
+    font-family: ArticulatLight;
+    font-size: 80px;
+    letter-spacing: -0.06em;
+    line-height: 77%;
+    color: white;
+}
+
+h3 {
+    font-family: ArticulatLight;
+    font-size: 40px;
+    letter-spacing: -0.06em;
+    line-height: 80%;
+    color: white;
+}
+
+h4 {
+    font-family: ArticulatLightOblique;
+    font-size: 40px;
+    letter-spacing: -0.04em;
+    line-height: 80%;
+    color: white;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.titleColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.dataWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.superScript {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}

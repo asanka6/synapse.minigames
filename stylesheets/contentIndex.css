@@ -198,3 +198,19 @@ p {
   margin-left: 67%;
   margin-top: 10%;
 }
+
+.module2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-left: 10%;
+  margin-top: 21%;
+}
+
+.module3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-left: 53%;
+  margin-top: 40%;
+}
