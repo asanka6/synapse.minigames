@@ -3,7 +3,9 @@ body {
 }
 
 h2 {
-    font-family: ArticulatLight;
+    font-family: ArticulatLight,
+        sans-serif,
+        Arial;
     font-size: 80px;
     letter-spacing: -0.06em;
     line-height: 77%;
@@ -11,7 +13,9 @@ h2 {
 }
 
 h3 {
-    font-family: ArticulatLight;
+    font-family: ArticulatLight,
+        sans-serif,
+        Arial;
     font-size: 40px;
     letter-spacing: -0.06em;
     line-height: 80%;
@@ -19,7 +23,9 @@ h3 {
 }
 
 h4 {
-    font-family: ArticulatLightOblique;
+    font-family: ArticulatLightOblique,
+        sans-serif,
+        Arial;
     font-size: 40px;
     letter-spacing: -0.04em;
     line-height: 80%;
